@@ -1,0 +1,12 @@
+type Restaurant{
+    id: Int!
+    name: String!
+    city: String
+    state: String
+    rate: String
+    description: String
+}
+
+type Query{
+    findAllRestaurants: [Restaurant]
+}

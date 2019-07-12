@@ -1,13 +1,14 @@
 package com.bruno.apigraphql.apigraphql.service;
 
 import com.bruno.apigraphql.apigraphql.model.Restaurant;
+import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class RestaurantService {
+public class RestaurantService{
 
     private List<Restaurant> restaurants = new ArrayList<Restaurant>();
 
